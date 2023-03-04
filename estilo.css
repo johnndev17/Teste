@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+
+body {
+	background-color: #222f3e;
+}
+
+
+.texto {
+	width: 20px;
+	color: white;
+	font-size: 60px;
+	position: absolute;
+	top: 5px;
+	left: 55px;
+	text-shadow: 3px 3px 8px #edb005;
+
+
+}
+
+
+.texto2 {
+	width: 20px;
+	color: white;
+	font-size: 45px;
+	position: absolute;
+	top: 53px;
+	left: 137px;
+	text-shadow: 3px 2px 8px #00acbd;
+
+}
+
+.topo {
+	width: 100%;
+	background-color: #090210;
+	position: relative;
+}
+
+
+
+.banner {
+	width: 100%;
+	height: 250px;
+	
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.topo a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	transition: 0.3s;
+
+}
+
+
+.topo a:hover {
+	background-color: yellow;
+	color: #18dcff;
+}
+
+nav {
+	padding: 0 15px 15px 0;
+	font-size: 22px;
+	text-align: right;
+
+}
+
+.conteudo {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+
+
+.menu {
+	font-family: Tahoma;
+	background-color: black;
+	border: 1px solid white;
+	width: 220px;
+	height: 100%;
+	margin: 25px 0 0 35px;
+	box-shadow: 0 0 25px #edb005;
+
+}
+
+.menu a {
+	display: block;
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.menu a:hover {
+	background-color: #182C61;
+	transition: 0.6s;
+}
+
+
+.mid {
+	width: 720px;
+	height: 100%;
+	background-color: #090210;
+	margin: 25px;
+	border: 2px solid #00acbd;
+	box-shadow: 0 0 30px #00acbd;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	padding-left: 10px;
+}
+
+.yellow {
+	color: #edb005;
+}
+
+.blue {
+	color: #00acbd;
+}
+
+
+
+.novidades {
+
+	width: 230px;
+	background-color: #090210;
+	margin: 25px 0 0 0;
+	border: 2px solid #edb005;
+	border-top: 2px solid #00acbd;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 5px 5px 5px #00acbd;
+
+}
+
+.novidades p {
+	padding: 10px 5px 10px 13px;
+	font-size: 15.5px;
+
+	
+}
+
+.novidades h2 {
+	padding: 8px 5px 0 10px;
+	text-align: center;
+	border-bottom: 2px solid #edb005;
+}
+
+
+.itens {
+
+	width: 320px;
+	background-color: #2c3331;
+	margin: 15px 10px 15px 15px;
+	position: relative;
+	border-radius: 15px 15px 0 0;
+	color: white;
+	border: 3px solid #edb005;
+	box-shadow: 0 0 12px #edb005;
+}
+
+.itens p {
+	margin: 0 0 15px 0;
+}
+
+.img img {
+	width: 200px;
+	padding: 10px;
+}
+
+
+button {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-top: 2px solid #edb005;
+	transition: 0.3s;
+}
+
+
+.coin {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 250px;
+	left: 226px;
+}
+
+
+button:hover {
+
+	background-color: gold;
+}
+
+.placa {
+	margin: 35px 0 42px 0;
+}
+
+.setup img {
+	width: 258px;
+}
+
+
+.build img {
+	width: 258px;
+	margin: 10px 0 13px 0;
+}
+
+
+.band img {
+	width: 120px;
+	height: 200px;
+}
+
